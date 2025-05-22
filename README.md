@@ -64,7 +64,7 @@ In this experiment, a 4:1 Multiplexer was successfully designed and simulated us
 ## Verilog Code
 
 ### 4:1 MUX Gate-Level Implementation
-```verilog
+verilog
 module mux4_to_1_gate (
     input wire A,
     input wire B,
@@ -88,7 +88,8 @@ module mux4_to_1_gate (
     or (Y, A_and, B_and, C_and, D_and);
 endmodule
 OUTPUT:
-![Screenshot 2025-03-4 071231](https://github.com/user-attachments/assets/1526d0a6-303d-48ef-80b8-f64fe5045262)
+![image](https://github.com/user-attachments/assets/ff241636-ecf1-46b5-b7e9-3befcf53109f)
+
 
 
 
@@ -109,7 +110,8 @@ module mux4_to_1_dataflow (
                (S1 & S0 & D);
 endmodule
 OUTPUT:
-![Screenshot 2025-03-14 074532](https://github.com/user-attachments/assets/808e16f5-42d4-4ca2-ac99-e80d8697b253)
+![image](https://github.com/user-attachments/assets/0a1d7102-c2b7-4691-b81a-88948b6485cb)
+
 
 
 
@@ -203,6 +205,8 @@ endmodule
 Time=0 | S1=0 S0=0 | Y_gate=0 | Y_dataflow=0 | Y_behavioral=0 | Y_structural=0
 Time=10 | S1=0 S0=1 | Y_gate=0 | Y_dataflow=0 | Y_behavioral=0 | Y_structural=0
 Time=20 | S1=1 S0=0 | Y_gate=0 | Y_dataflow=0 | Y_behavioral=0 | Y_structural=0
+![image](https://github.com/user-attachments/assets/f89f3ee1-f604-4556-911e-d759410fcc21)
+
 
 **CONCLUSION**
 In this experiment, a 4:1 Multiplexer was successfully designed and simulated using Verilog HDL
